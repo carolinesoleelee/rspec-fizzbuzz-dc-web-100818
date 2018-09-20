@@ -31,8 +31,10 @@ def fizzbuzz(number)
     return "FizzBuzz"
   elsif number % 3 == 0
     return "Fizz"
-  else number % 5 == 0
-    return "Buzz"  
+  elsif number % 5 == 0
+    return "Buzz"
+  else number !== 0
+    return nil  
 
 
   end
