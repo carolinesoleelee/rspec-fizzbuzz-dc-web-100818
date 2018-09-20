@@ -34,6 +34,6 @@ def fizzbuzz(number)
   elsif number % (3||5) == 0
     return "FizzBuzz"
   else number % (3||5) != 0
-    return  "nil"
+    return  nil
   end
 end
