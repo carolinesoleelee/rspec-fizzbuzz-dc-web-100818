@@ -27,7 +27,7 @@ describe "fizzbuzz" do
 end
 
 def fizzBuzz(theNumber)
-  if (theNumber is divisible by 3)
+  if (theNumber) == fizzBuzz(3)
   return "Fizz"
 end
 end
