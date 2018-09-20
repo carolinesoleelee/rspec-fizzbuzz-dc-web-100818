@@ -26,7 +26,7 @@ describe "fizzBuzz" do
   end
 end
 
-def fizzBuzz(number)
+def fizzbuzz(number)
   if number % 3 == 0
     return "Fizz"
   elsif number % 5 == 0
