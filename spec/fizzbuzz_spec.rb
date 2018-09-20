@@ -33,8 +33,8 @@ def fizzbuzz(number)
     return "Fizz"
   elsif number % 5 == 0
     return "Buzz"
-  else number !== 0
-    return nil  
+  else number != 0
+    return nil
 
 
   end
