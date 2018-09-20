@@ -8,6 +8,9 @@ describe "fizzBuzz" do
 def fizzBuzz(number)
   if number % 3 == 0
     return "Fizz"
+  elsif number % 5 == 0
+    return "Buzz"
+
   end
 end
 
