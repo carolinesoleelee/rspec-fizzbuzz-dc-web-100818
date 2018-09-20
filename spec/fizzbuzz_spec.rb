@@ -26,7 +26,7 @@ describe "fizzbuzz" do
   end
 end
 
-def method FizzBuzz(theNumber)
+def FizzBuzz(theNumber)
   if (theNumber is divisible by 3)
   return "Fizz"
 end
