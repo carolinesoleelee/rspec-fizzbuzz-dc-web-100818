@@ -5,6 +5,12 @@ describe "fizzbuzz" do
   it 'returns "Fizz" when the number is divisible by 3' do
     fizz_3 = fizzbuzz(3)
 
+def fizzBuzz(number)
+  if number % 3 ==
+    return "Fizz"
+  end
+end
+
 
 
     expect(fizz_3).to eq("Fizz")
@@ -24,10 +30,4 @@ describe "fizzbuzz" do
 
     expect(fizz_4).to eq(nil)
   end
-end
-
-def fizzBuzz(theNumber)
-  if (theNumber) == fizzBuzz(3)
-  return "Fizz"
-end
 end
