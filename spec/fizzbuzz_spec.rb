@@ -6,7 +6,7 @@ describe "fizzbuzz" do
     fizz_3 = fizzbuzz(3)
 
 def fizzBuzz(number)
-  if number / 3 == 0
+  if number % 3 == 0
      "Fizz"
   end
 end
